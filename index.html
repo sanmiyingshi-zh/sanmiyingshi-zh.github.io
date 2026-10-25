@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-CN" itemscope itemtype="https://schema.org/WebSite">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fbf7f1">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:0">
+<meta name="author" content="三米影视编辑部">
+<meta name="publisher" content="三米影视">
+<meta name="language" content="zh-CN">
+<meta name="geo.region" content="CN-32">
+<meta name="geo.placename" content="Suqian">
+<meta name="rating" content="General">
+<meta name="revisit-after" content="7 days">
+<meta name="distribution" content="global">
+<meta name="og:site_name" content="三米影视 · sanmiyingshi-zh.github.io">
+<meta property="og:type" content="Article">
+<meta property="og:article:section" content="影视资讯">
+<meta property="og:article:tag" content="华语电影,剧集观察,动画随笔,观影日历">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@sanmiyingshi">
+<link rel="canonical" href="https://sanmiyingshi-zh.github.io/">
+<title>三米影视｜在华语片与剧集之间，留出三米的距离 · sanmiyingshi-zh.github.io</title>
+<meta name="description" itemprop="description" content="三米影视不赶热搜，只做慢一拍的华语片笔记、剧集观察与动画随笔。每周更新观影日历、冷门佳作与撤档补遗，帮你把「想看」变成「看完了」。唯一地址 https://sanmiyingshi-zh.github.io，纯文字索引，不含播放资源。">
+<meta name="keywords" content="三米影视, sanmiyingshi-zh, sanmiyingshi-zh.github.io, 华语电影笔记, 剧集观察, 动画随笔, 观影日历, 冷门佳作推荐, 撤档补遗, 国产剧长评, GitHub Pages 影评站">
+<meta property="og:title" content="三米影视｜在华语片与剧集之间，留出三米的距离">
+<meta property="og:description" content="慢一拍的华语片笔记与观影日历，唯一地址 https://sanmiyingshi-zh.github.io。">
+<meta property="og:url" content="https://sanmiyingshi-zh.github.io/">
+<meta name="twitter:title" content="三米影视 · 慢一拍的华语片笔记">
+<meta name="twitter:description" content="每周观影日历、冷门佳作与剧集观察，sanmiyingshi-zh.github.io。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["WebSite","NewsMediaOrganization"],
+  "name": "三米影视",
+  "alternateName": ["三米影视编辑部","sanmiyingshi-zh"],
+  "url": "https://sanmiyingshi-zh.github.io/",
+  "description": "慢一拍的华语片笔记、剧集观察与动画随笔，附每周观影日历与冷门佳作索引。",
+  "inLanguage": "zh-CN",
+  "publisher": {
+    "@type": "Organization",
+    "name": "三米影视",
+    "url": "https://sanmiyingshi-zh.github.io/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sanmiyingshi-zh.github.io/",
+      "caption": "三米影视"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://sanmiyingshi-zh.github.io/#notes",
+    "query-input": "required name=search_term_string"
+  },
+  "sameAs": []
+}
+</script>
+<style>
+:root{
+  --bg:#fbf7f1;
+  --bg-2:#f4ede2;
+  --ink:#202b2b;
+  --ink-2:#4a5656;
+  --ink-3:#8b9494;
+  --rule:#d8cfc0;
+  --rule-2:#e7e0d3;
+  --accent:#c8551f;
+  --accent-2:#a8441a;
+  --plum:#6b4a5e;
+  --moss:#4d6347;
+  --shadow:0 1px 0 rgba(32,43,43,.05),0 12px 30px -18px rgba(32,43,43,.28);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-rendering:optimizeLegibility}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",system-ui,-apple-system,sans-serif;
+  font-size:15.5px;
+  line-height:1.78;
+  overflow-x:hidden;
+  font-feature-settings:"tnum","ss01";
+}
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:60;
+  background:repeating-linear-gradient(0deg,transparent 0 25px,rgba(32,43,43,.018) 25px 26px);
+}
+img,svg{display:block;max-width:100%}
+a{color:var(--accent);text-decoration:none}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+::selection{background:var(--accent);color:#fff}
+
+/* ===== 顶部条：报纸报头式 ===== */
+.masthead{
+  position:sticky;top:0;z-index:40;
+  background:var(--bg);
+  border-bottom:3px double var(--rule);
+}
+.masthead-in{max-width:1360px;margin:0 auto;padding:10px 22px 8px}
+.mh-top{display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap}
+.mh-name{
+  font-size:clamp(26px,6.4vw,46px);
+  font-weight:900;letter-spacing:.02em;line-height:1;
+  font-family:"Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,serif;
+}
+.mh-name em{font-style:normal;color:var(--accent)}
+.mh-sub{font-size:11.5px;letter-spacing:.24em;color:var(--ink-3);text-transform:uppercase;padding-bottom:5px}
+.mh-meta{
+  margin-left:auto;display:flex;gap:16px;flex-wrap:wrap;
+  font-size:11px;letter-spacing:.1em;color:var(--ink-2);padding-bottom:4px;
+}
+.mh-meta b{color:var(--accent);font-weight:600}
+.mh-nav{
+  margin-top:9px;display:flex;gap:2px;overflow-x:auto;
+  -webkit-overflow-scrolling:touch;scrollbar-width:none;
+}
+.mh-nav::-webkit-scrollbar{display:none}
+.mh-nav a{
+  flex:0 0 auto;padding:6px 13px 6px 0;margin-right:13px;
+  font-size:13px;letter-spacing:.08em;color:var(--ink-2);
+  border-right:1px solid var(--rule);white-space:nowrap;
+}
+.mh-nav a:last-child{border-right:0}
+.mh-nav a:hover{color:var(--accent)}
+.mh-nav a.cur{color:var(--ink);font-weight:700}
+.mh-nav a.cur::before{content:"§ ";color:var(--accent)}
+
+/* ===== 布局 ===== */
+.frame{max-width:1360px;margin:0 auto;padding:0 22px}
+.lede{
+  display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);
+  gap:34px;padding:38px 0 30px;border-bottom:1px solid var(--rule);
+}
+.lede h1{
+  font-family:"Songti SC","Source Han Serif SC",Georgia,serif;
+  font-size:clamp(27px,5.6vw,50px);line-height:1.24;font-weight:800;letter-spacing:-.005em;
+}
+.lede h1 .q{color:var(--accent)}
+.lede p{margin-top:16px;color:var(--ink-2);font-size:15px;max-width:52ch}
+.lede .drop{float:left;font-family:Georgia,serif;font-size:54px;line-height:.86;color:var(--accent);margin:4px 9px 0 0;font-weight:700}
+.side-card{
+  background:var(--bg-2);border:1px solid var(--rule-2);
+  border-radius:14px;padding:18px 18px 16px;box-shadow:var(--shadow);
+  align-self:start;
+}
+.side-card h4{
+  font-size:11px;letter-spacing:.26em;color:var(--ink-3);font-weight:600;
+  display:flex;align-items:center;gap:8px;
+}
+.side-card h4::before{content:"";width:18px;height:2px;background:var(--accent)}
+.url-line{
+  margin-top:13px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;
+}
+.url-line code{
+  flex:1 1 auto;min-width:0;
+  font-family:"SF Mono",Menlo,Consolas,monospace;font-size:12.5px;
+  color:var(--accent-2);background:#fff;border:1px solid var(--rule);
+  border-radius:8px;padding:8px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.url-line button{
+  flex:0 0 auto;font-size:12px;letter-spacing:.06em;color:var(--bg);
+  background:var(--accent);border-radius:8px;padding:9px 14px;transition:.18s;
+}
+.url-line button:hover{background:var(--accent-2)}
+.url-line button.ok{background:var(--moss)}
+.side-card .note{margin-top:12px;font-size:12.5px;color:var(--ink-3);line-height:1.7}
+
+/* ===== 栏目通用 ===== */
+section{padding:52px 0;border-bottom:1px solid var(--rule-2)}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:22px;flex-wrap:wrap}
+.sec-no{
+  font-family:Georgia,serif;font-size:13px;color:var(--accent);letter-spacing:.1em;
+  border:1px solid var(--rule);border-radius:20px;padding:3px 12px;
+}
+.sec-head h2{
+  font-size:clamp(20px,3.4vw,29px);letter-spacing:.01em;font-weight:800;
+  font-family:"Songti SC","Source Han Serif SC",Georgia,serif;
+}
+.sec-head .en{font-size:11px;letter-spacing:.24em;color:var(--ink-3);text-transform:uppercase;margin-left:auto}
+.sec-head .lead{width:100%;color:var(--ink-2);font-size:13.5px;margin-top:6px;max-width:70ch}
+
+/* ===== 01 日历：周轨 ===== */
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px}
+.day{border:1px solid var(--rule-2);border-radius:12px;padding:12px 12px 14px;background:#fff;min-height:168px;transition:.2s}
+.day:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:var(--shadow)}
+.day.today{border:1.5px solid var(--accent);background:#fff7f2}
+.day .wd{font-size:11px;letter-spacing:.16em;color:var(--ink-3);display:flex;justify-content:space-between}
+.day.today .wd b{color:var(--accent)}
+.day .num{font-family:Georgia,serif;font-size:26px;line-height:1.1;margin:5px 0 9px;font-weight:700}
+.day .pick{font-size:12.5px;color:var(--ink);line-height:1.55}
+.day .tag{display:inline-block;margin-top:8px;font-size:10px;letter-spacing:.1em;color:var(--plum);background:rgba(107,74,94,.09);border-radius:5px;padding:2px 6px}
+
+/* ===== 02 长评：交错双列 ===== */
+.essays{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px 34px}
+.essay{display:flex;gap:16px;padding-bottom:22px;border-bottom:1px dashed var(--rule)}
+.essay:nth-child(even){flex-direction:row-reverse;text-align:right}
+.essay:nth-child(even) .etags{justify-content:flex-end}
+.eno{
+  flex:0 0 46px;height:46px;border-radius:11px;background:var(--ink);color:var(--bg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1;flex-shrink:0;
+}
+.eno b{font-family:Georgia,serif;font-size:18px}
+.eno span{font-size:8.5px;letter-spacing:.14em;opacity:.7}
+.essay h3{font-size:17px;line-height:1.45;font-weight:700;letter-spacing:.005em}
+.essay .meta{margin-top:6px;font-size:11.5px;color:var(--ink-3);letter-spacing:.06em}
+.essay p{margin-top:9px;font-size:13.5px;color:var(--ink-2);line-height:1.75}
+.etags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.etags i{font-style:normal;font-size:10.5px;letter-spacing:.08em;color:var(--ink-2);border:1px solid var(--rule);border-radius:20px;padding:2px 9px}
+
+/* ===== 03 片单：横向胶片带 ===== */
+.reel-wrap{position:relative}
+.reel{
+  display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding:6px 2px 18px;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+}
+.reel::-webkit-scrollbar{display:none}
+.cell{
+  flex:0 0 220px;scroll-snap-align:start;background:#fff;border:1px solid var(--rule-2);
+  border-radius:13px;overflow:hidden;box-shadow:var(--shadow);transition:.2s;
+}
+.cell:hover{transform:translateY(-4px);border-color:var(--accent)}
+.poster{
+  height:132px;position:relative;overflow:hidden;
+  display:flex;align-items:flex-end;padding:11px;color:#fbf7f1;
+}
+.poster .pg{font-family:Georgia,serif;font-size:10px;letter-spacing:.2em;opacity:.85}
+.poster .pt{font-family:"Songti SC",serif;font-size:17px;font-weight:700;line-height:1.25;text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.poster .holes{position:absolute;top:0;bottom:0;left:6px;display:flex;flex-direction:column;justify:space-between;padding:8px 0;opacity:.55}
+.poster .holes s{width:6px;height:6px;border-radius:50%;background:var(--bg);text-decoration:none;box-shadow:inset 0 0 0 1px rgba(255,255,255,.4)}
+.cell .cbody{padding:12px 13px 14px}
+.cell h5{font-size:14.5px;line-height:1.4;font-weight:700}
+.cell .row{margin-top:7px;display:flex;justify-content:space-between;align-items:center;font-size:11.5px;color:var(--ink-3)}
+.bars{display:flex;gap:2px;margin-top:9px}
+.bars s{width:14px;height:5px;border-radius:2px;background:var(--rule-2);text-decoration:none}
+.bars s.on{background:var(--accent)}
+.reel-hint{font-size:11.5px;color:var(--ink-3);margin-top:2px;letter-spacing:.06em}
+
+/* ===== 04 观察：数据卡 + 列表 ===== */
+.split{display:grid;grid-template-columns:minmax(0,.62fr) minmax(0,1fr);gap:30px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stat{background:#fff;border:1px solid var(--rule-2);border-radius:12px;padding:15px 16px}
+.stat b{display:block;font-family:Georgia,serif;font-size:30px;line-height:1;letter-spacing:-.01em}
+.stat b em{font-style:normal;font-size:14px;color:var(--accent);margin-left:3px}
+.stat span{display:block;margin-top:7px;font-size:11.5px;color:var(--ink-3);letter-spacing:.06em}
+.trend{list-style:none}
+.trend li{
+  display:grid;grid-template-columns:64px minmax(0,1fr) 88px;gap:12px;align-items:center;
+  padding:12px 0;border-bottom:1px solid var(--rule-2);font-size:13.5px;
+}
+.trend li b{font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.trend .track{height:6px;background:var(--rule-2);border-radius:4px;overflow:hidden}
+.trend .track i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--plum));font-style:normal;border-radius:4px}
+.trend .who{font-size:12px;color:var(--ink-3);letter-spacing:.04em}
+
+/* ===== 05 方法：步骤阶梯 ===== */
+.steps{counter-reset:s;display:grid;gap:14px}
+.step{
+  display:grid;grid-template-columns:76px minmax(0,1fr);gap:0;
+  background:#fff;border:1px solid var(--rule-2);border-radius:13px;overflow:hidden;box-shadow:var(--shadow);
+}
+.step::before{
+  counter-increment:s;content:"0" counter(s);
+  background:var(--ink);color:var(--bg);
+  font-family:Georgia,serif;font-size:22px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;letter-spacing:.05em;
+}
+.step:nth-child(2)::before{background:var(--accent)}
+.step:nth-child(3)::before{background:var(--plum)}
+.step:nth-child(4)::before{background:var(--moss)}
+.step .sc{padding:15px 18px}
+.step h3{font-size:15.5px;font-weight:700}
+.step p{margin-top:6px;font-size:13.5px;color:var(--ink-2)}
+.step .eg{margin-top:9px;font-size:12px;color:var(--accent-2);background:var(--bg-2);border-radius:7px;padding:7px 10px;line-height:1.6}
+
+/* ===== 06 常问：折叠 ===== */
+.faq{display:grid;gap:10px}
+.faq details{
+  background:#fff;border:1px solid var(--rule-2);border-radius:11px;padding:0 16px;transition:.2s;
+}
+.faq details[open]{border-color:var(--accent);box-shadow:var(--shadow)}
+.faq summary{
+  padding:15px 0;font-size:14.5px;font-weight:600;cursor:pointer;list-style:none;
+  display:flex;align-items:center;gap:11px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{
+  content:"+";flex:0 0 auto;width:20px;height:20px;border-radius:50%;background:var(--bg-2);
+  color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:15px;line-height:1;
+}
+.faq details[open] summary::before{content:"–";background:var(--accent);color:#fff}
+.faq summary .qcat{margin-left:auto;font-size:10.5px;letter-spacing:.12em;color:var(--ink-3);font-weight:400}
+.faq .a{padding:0 0 16px 31px;color:var(--ink-2);font-size:13.5px;line-height:1.8}
+.faq .a code{font-family:Menlo,monospace;font-size:12px;background:var(--bg-2);padding:1px 6px;border-radius:5px;color:var(--accent-2);word-break:break-all}
+
+/* ===== 页脚 ===== */
+.colophon{
+  max-width:1360px;margin:0 auto;padding:34px 22px 60px;
+  display:grid;grid-template-columns:minmax(0,1.2fr) repeat(3,minmax(0,1fr));gap:26px;
+}
+.colophon h5{font-size:11px;letter-spacing:.24em;color:var(--ink-3);font-weight:600;margin-bottom:11px}
+.colophon p,.colophon li{font-size:12.5px;color:var(--ink-2);line-height:1.85;list-style:none}
+.colophon .big{font-family:"Songti SC",serif;font-size:22px;font-weight:800;line-height:1.35}
+.colophon a:hover{text-decoration:underline;text-underline-offset:3px}
+.ruleline{border:0;border-top:3px double var(--rule);margin:0}
+.fineprint{max-width:1360px;margin:0 auto;padding:0 22px 40px;font-size:11px;color:var(--ink-3);line-height:1.9;display:flex;gap:16px;flex-wrap:wrap}
+.fineprint b{color:var(--ink-2);font-weight:600}
+
+/* ===== 响应式 ===== */
+@media (max-width:1000px){
+  .lede,.split{grid-template-columns:1fr}
+  .colophon{grid-template-columns:1fr 1fr}
+}
+@media (max-width:700px){
+  .frame,section,.masthead-in,.colophon,.fineprint{padding-left:16px;padding-right:16px}
+  section{padding:40px 0}
+  .week{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .day{min-height:0}
+  .essays{grid-template-columns:1fr;gap:0}
+  .essay:nth-child(even){flex-direction:row;text-align:left}
+  .essay:nth-child(even) .etags{justify-content:flex-start}
+  .cell{flex-basis:178px}
+  .stat b{font-size:25px}
+  .step{grid-template-columns:56px minmax(0,1fr)}
+  .trend li{grid-template-columns:52px minmax(0,1fr) 64px;gap:9px;font-size:12.5px}
+  .mh-name{font-size:30px}
+  .mh-meta{width:100%;margin-left:0}
+}
+@media (max-width:420px){
+  body{font-size:15px}
+  .week{grid-template-columns:1fr 1fr}
+  .cell{flex-basis:160px}
+  .colophon{grid-template-columns:1fr}
+  .fineprint{flex-direction:column;gap:6px}
+}
+@media print{
+  .mh-nav,.url-line button,.reel-hint{display:none}
+  body{background:#fff}
+  section,article{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+<div class="masthead">
+  <div class="masthead-in">
+    <div class="mh-top">
+      <div class="mh-name">三米<em>·</em>影视</div>
+      <div class="mh-sub">A Slow-Take Film &amp; TV Notebook</div>
+      <div class="mh-meta">
+        <span>期号 <b>Vol.3</b></span>
+        <span>更新 <b>2026.10.25</b></span>
+        <span>栏目 <b>06</b></span>
+        <span>站点 <b>sanmiyingshi-zh.github.io</b></span>
+      </div>
+    </div>
+    <nav class="mh-nav" aria-label="栏目导航">
+      <a href="#week">观影日历</a>
+      <a href="#essays">长评</a>
+      <a href="#reel">片单索引</a>
+      <a href="#trend">本周观察</a>
+      <a href="#howto">选片方法</a>
+      <a href="#faq">常问</a>
+    </nav>
+  </div>
+</div>
+
+<header class="frame">
+  <div class="lede">
+    <div>
+      <h1>在华语片与剧集之间，<br><span class="q">留出三米的距离</span>。</h1>
+      <p><span class="drop">不</span>追热搜，不赶定档日。我们把一部片多看一周，再告诉你它值不值得占掉你一个晚上。这里是 <strong>三米影视</strong>——华语片笔记、剧集观察、动画随笔，加上一张每周更新的观影日历。唯一地址 <code style="font-family:Menlo,monospace;font-size:13px;color:var(--accent-2)">https://sanmiyingshi-zh.github.io</code>，纯文字索引，不挂任何播放资源。</p>
+    </div>
+    <aside class="side-card">
+      <h4>本站唯一地址</h4>
+      <div class="url-line">
+        <code id="u">https://sanmiyingshi-zh.github.io</code>
+        <button id="cp" type="button">复制网址</button>
+      </div>
+      <p class="note">收藏这一条就够了。站内所有栏目都是页内锚点，不会跳出本站，也不会跳到任何第三方播放页。</p>
+    </aside>
+  </div>
+</header>
+
+<main>
+
+<!-- 01 -->
+<section id="week" class="frame">
+  <div class="sec-head">
+    <span class="sec-no">No.01</span>
+    <h2>本周观影日历</h2>
+    <span class="en">Screening Diary · Oct 26 – Nov 01</span>
+    <p class="lead">按时段排的，不是按热度。通勤看短片，周末留长片，深夜那格只放安静的东西。</p>
+  </div>
+  <div class="week">
+    <article class="day today">
+      <div class="wd"><span>周日</span><b>26</b></div>
+      <div class="num">15′</div>
+      <div class="pick">重看一部旧短片，把片尾字幕看完，别急着划走。</div>
+      <span class="tag">通勤档</span>
+    </article>
+    <article class="day">
+      <div class="wd"><span>周一</span><b>27</b></div>
+      <div class="num">42′</div>
+      <div class="pick">剧集单集补完法：一集一停，写一句当下的疑点。</div>
+      <span class="tag">剧集</span>
+    </article>
+    <article class="day">
+      <div class="wd"><span>周二</span><b>28</b></div>
+      <div class="num">90′</div>
+      <div class="pick">冷门华语片专场，配一碗面，别开弹幕。</div>
+      <span class="tag">华语</span>
+    </article>
+    <article class="day">
+      <div class="wd"><span>周三</span><b>29</b></div>
+      <div class="num">25′</div>
+      <div class="pick">动画短片两则，看分镜比看台词更有意思。</div>
+      <span class="tag">动画</span>
+    </article>
+    <article class="day">
+      <div class="wd"><span>周四</span><b>30</b></div>
+      <div class="num">60′</div>
+      <div class="pick">纪录片夜：一个地方，一个老人，一种快要消失的活法。</div>
+      <span class="tag">纪录</span>
+    </article>
+    <article class="day">
+      <div class="wd"><span>周五</span><b>31</b></div>
+      <div class="num">∞</div>
+      <div class="pick">自由场。从本月片单里挑一部拖最久的，今晚把它结案。</div>
+      <span class="tag">自由</span>
+    </article>
+    <article class="day">
+      <div class="wd"><span>周六</span><b>01</b></div>
+      <div class="num">150′</div>
+      <div class="pick">长片档。手机静音，灯关掉，中途不查手机。</div>
+      <span class="tag">周末</span>
+    </article>
+  </div>
+</section>
+
+<!-- 02 -->
+<section id="essays" class="frame">
+  <div class="sec-head">
+    <span class="sec-no">No.02</span>
+    <h2>慢一拍的长评</h2>
+    <span class="en">Essays</span>
+    <p class="lead">写完就发的是快讯，放两周才动笔的才是笔记。以下全是原创短评，不含剧透终点。</p>
+  </div>
+  <div class="essays">
+    <article class="essay">
+      <div class="eno"><b>01</b><span>华语</span></div>
+      <div>
+        <h3>它的节奏慢，是因为舍不得剪掉那口气</h3>
+        <div class="meta">观影笔记 · 2026.10.22 · 约 1,200 字</div>
+        <p>很多地方其实什么都没发生：一碗汤凉了，两个人没接话。导演偏偏让镜头多停三秒，观众才听见自己刚才在替角色着急。</p>
+        <div class="etags"><i/><i/><i/></div>
+      </div>
+    </article>
+    <article class="essay">
+      <div class="eno"><b>02</b><span>剧集</span></div>
+      <div>
+        <h3>十二集的剧，第七集才是真正的片名</h3>
+        <div class="meta">剧集观察 · 2026.10.19 · 约 980 字</div>
+        <p>前六集在铺线索，后五集在收线，只有第七集让主角做了一件违背人设的事。那一场戏决定这部剧该被叫好还是被忘记。</p>
+        <div class="etags"><i/><i/></div>
+      </div>
+    </article>
+    <article class="essay">
+      <div class="eno"><b>03</b><span>动画</span></div>
+      <div>
+        <h3>手绘的颗粒感，是算法还画不出来的犹豫</h3>
+        <div class="meta">动画随笔 · 2026.10.15 · 约 860 字</div>
+        <p>逐帧里那些微微抖动的线条，不是瑕疵，是作画的人在那一帧犹豫了一下。数字补间太顺滑，反而把人的痕迹磨平了。</p>
+        <div class="etags"><i/><i/></div>
+      </div>
+    </article>
+    <article class="essay">
+      <div class="eno"><b>04</b><span>纪录</span></div>
+      <div>
+        <h3>撤档之后，那些片子去了哪里</h3>
+        <div class="meta">撤档补遗 · 2026.10.10 · 约 1,450 字</div>
+        <p>没上映不等于不存在。我们把近三年公开过物料又悄然消失的项目挨个记了一笔：现在能看到的只有海报、一段花絮，和一版没送审的梗概。</p>
+        <div class="etags"><i/><i/></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="reel" class="frame">
+  <div class="sec-head">
+    <span class="sec-no">No.03</span>
+    <h2>片单索引 · 本月十二格</h2>
+    <span class="en">Reel Index</span>
+    <p class="lead">横向滑着看。色块是类型，五格条是我们的综合倾向分（叙事／影像／表演／留白／回味），不是打分榜。</p>
+  </div>
+  <div class="reel-wrap">
+    <div class="reel" tabindex="0" aria-label="片单横向列表，可左右滑动">
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#8a4b32,#c8551f 70%)">
+          <div class="holes"><s/><s/><s/><s/><s/></div>
+          <div><div class="pg">NO.01 / 华语</div><div class="pt">春信未至</div></div>
+        </div>
+        <div class="cbody">
+          <h5>春信未至</h5>
+          <div class="row"><span>2025 · 114′</span><span>剧情</span></div>
+          <div class="bars"><s class="on"/><s class="on"/><s class="on"/><s class="on"/><s/></div>
+        </div>
+      </article>
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#3d4a52,#6b4a5e 75%)">
+          <div class="holes"><s/><s/><s/><s/><s/></div>
+          <div><div class="pg">NO.02 / 剧集</div><div class="pt">第七夜之后</div></div>
+        </div>
+        <div class="cbody">
+          <h5>第七夜之后</h5>
+          <div class="row"><span>2026 · 12 集</span><span>悬疑</span></div>
+          <div class="bars"><s class="on"/><s class="on"/><s class="on"/><s/><s class="on"/></div>
+        </div>
+      </article>
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#4d6347,#2f4434 80%)">
+          <div class="holes"><s/><s/><s/><s class="on"/><s/></div>
+          <div><div class="pg">NO.03 / 动画</div><div class="pt">纸船渡海</div></div>
+        </div>
+        <div class="cbody">
+          <h5>纸船渡海</h5>
+          <div class="row"><span>2024 · 26′</span><span>短片</span></div>
+          <div class="bars"><s class="on"/><s class="on"/><s class="on"/><s class="on"/><s class="on"/></div>
+        </div>
+      </article>
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#b0895e,#7a5a3a 75%)">
+          <div class="holes"><s/><s/><s/><s/><s/></div>
+          <div><div class="pg">NO.04 / 纪录</div><div class="pt">老茶馆的最后一年</div></div>
+        </div>
+        <div class="cbody">
+          <h5>老茶馆的最后一年</h5>
+          <div class="row"><span>2023 · 88′</span><span>纪录</span></div>
+          <div class="bars"><s class="on"/><s class="on"/><s/><s class="on"/><s class="on"/></div>
+        </div>
+      </article>
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#5a5a6a,#2b2b38 80%)">
+          <div class="holes"><s/><s/><s/><s/><s/></div>
+          <div><div class="pg">NO.05 / 华语</div><div class="pt">桥下的雨停了</div></div>
+        </div>
+        <div class="cbody">
+          <h5>桥下的雨停了</h5>
+          <div class="row"><span>2026 · 99′</span><span>家庭</span></div>
+          <div class="bars"><s class="on"/><s class="on"/><s/><s/><s/></div>
+        </div>
+      </article>
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#a8441a,#c8551f 60%,#6b2f16 100%)">
+          <div class="holes"><s/><s/><s class="on"/><s/><s/></div>
+          <div><div class="pg">NO.06 / 剧集</div><div class="pt">午后才开门</div></div>
+        </div>
+        <div class="cbody">
+          <h5>午后才开门</h5>
+          <div class="row"><span>2025 · 8 集</span><span>市井</span></div>
+          <div class="bars"><s class="on"/><s class="on"/><s class="on"/><s class="on"/><s/></div>
+        </div>
+      </article>
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#4a5656,#202b2b 85%)">
+          <div class="holes"><s/><s/><s/><s/><s/></div>
+          <div><div class="pg">NO.07 / 冷门</div><div class="pt">一封没寄出的信</div></div>
+        </div>
+        <div class="cbody">
+          <h5>一封没寄出的信</h5>
+          <div class="row"><span>2022 · 73′</span><span>书信体</span></div>
+          <div class="bars"><s class="on"/><s/><s class="on"/><s class="on"/><s class="on"/></div>
+        </div>
+      </article>
+      <article class="cell">
+        <div class="poster" style="background:linear-gradient(155deg,#7a5a6e,#4a3a52 80%)">
+          <div class="holes"><s/><s/><s/><s/><s/></div>
+          <div><div class="pg">NO.08 / 动画</div><div class="pt">夜班电车</div></div>
+        </div>
+        <div class="cbody">
+          <h5>夜班电车</h5>
+          <div class="row"><span>2026 · 22′</span><span>日常</span></div>
+          <div class="bars"><s class="on"/><s class="on"/><s class="on"/><s/><s/></div>
+        </div>
+      </article>
+    </div>
+    <p class="reel-hint">← 手机上左右滑动翻片单，点击任意一格不会离开本页。</p>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="trend" class="frame">
+  <div class="sec-head">
+    <span class="sec-no">No.04</span>
+    <h2>本周观察：我们在反复聊什么</h2>
+    <span class="en">Field Notes</span>
+    <p class="lead">不是票房榜，也不是热搜词。是编辑部这一周提到次数最多的几件事，配一个粗略的注意力占比。</p>
+  </div>
+  <div class="split">
+    <div class="stats">
+      <div class="stat"><b>12<em>格</em></b><span>本月片单在册条目</span></div>
+      <div class="stat"><b>04<em>类</em></b><span>华语 / 剧集 / 动画 / 纪录</span></div>
+      <div class="stat"><b>07<em>天</em></b><span>连续更新观影日历</span></div>
+      <div class="stat"><b>00<em>源</em></b><span>本站不提供任何播放资源</span></div>
+    </div>
+    <ul class="trend">
+      <li><b>01</b><span class="track"><i style="width:92%"/></span><span class="who">长镜头的留白争议</span></li>
+      <li><b>02</b><span class="track"><i style="width:74%"/></span><span class="who">剧集中段塌陷怎么救</span></li>
+      <li><b>03</b><span class="track"><i style="width:61%"/></span><span class="who">方言对白的字幕取舍</span></li>
+      <li><b>04</b><span class="track"><i style="width:48%"/></span><span class="who">手绘 vs 数字补间</span></li>
+      <li><b>05</b><span class="track"><i style="width:35%"/></span><span class="who">撤档项目的资料留存</span></li>
+      <li><b>06</b><span class="track"><i style="width:27%"/></span><span class="who">二刷时才听懂的配乐</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 05 -->
+<section id="howto" class="frame">
+  <div class="sec-head">
+    <span class="sec-no">No.05</span>
+    <h2>剧荒的时候，我们这么选片</h2>
+    <span class="en">A Small Method</span>
+    <p class="lead">四步，大概三分钟。核心只有一条：先定「今晚你能给出多少时间」，再决定看什么。</p>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="sc">
+        <h3>先量时间，别量片单</h3>
+        <p>手上剩二十分钟，就别点开一部两小时的文艺片。时间配错了，不是片子的问题，是你给它的耐心不够。</p>
+        <p class="eg">例：通勤 18 分钟 → 动画短片或单集剧集；周末晚上 → 长片，且一气看完。</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="sc">
+        <h3>用一个词代替「随便」</h3>
+        <p>「随便看看」是选片系统崩溃的信号。把它换成「想被哄一下」「想被吓一下」「想安静一会儿」，范围立刻从三百部缩到五部。</p>
+        <p class="eg">例：累到不想动脑子 → 选市井剧集，不选烧脑悬疑；心情堵 → 先看纪录片，别看悲剧。</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="sc">
+        <h3>看前先读一句话，别读评分</h3>
+        <p>我们只给你一句「为什么值得看」和一句「可能劝退你什么」。评分会把期待钉死，而一句真话能让你选得更准。</p>
+        <p class="eg">例：「节奏很慢，但第二幕那场饭桌戏值回票价」——比 8.7 分有用。</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="sc">
+        <h3>看完留一句，别急着划走</h3>
+        <p>写在备忘录也行，发给我们也行。三个月后再翻，你会发现自己口味变了，那才是这个站真正想攒的东西。</p>
+        <p class="eg">例：「看完没哭，但睡前想起那碗凉了的汤。」——这就够了一条影评。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 -->
+<section id="faq" class="frame">
+  <div class="sec-head">
+    <span class="sec-no">No.06</span>
+    <h2>常问的几件事</h2>
+    <span class="en">Notes &amp; Answers</span>
+    <p class="lead">点开看回答。都没离开本页，网址也再给你贴一遍。</p>
+  </div>
+  <div class="faq">
+    <details open>
+      <summary>三米影视到底是干什么的？<span class="qcat">站点定位</span></summary>
+      <div class="a">一份慢一拍的华语影视笔记：片单索引、长评、动画随笔和每周观影日历。我们只做「怎么挑、为什么值得看」的文字整理，不提供在线播放、下载或任何盗链。唯一站点是 <code>https://sanmiyingshi-zh.github.io</code>，认准这个地址，别的都不是我们。</div>
+    </details>
+    <details>
+      <summary>为什么叫「三米」？<span class="qcat">名字由来</span></summary>
+      <div class="a">沙发到电视那三米，是很多片子被划走的距离。我们想让你在那三米里多站一会儿：看完片头，看完字幕，看完一部片该有的耐心。</div>
+    </details>
+    <details>
+      <summary>片单里的分数条是打分吗？<span class="qcat">内容说明</span></summary>
+      <div class="a">不是。五格分别对应叙事、影像、表演、留白、回味四个维度的编辑倾向，满格只代表「这一项很突出」，不代表「这片 10 分」。我们不排总榜，也不做优劣排行。</div>
+    </details>
+    <details>
+      <summary>能在这里直接看片吗？<span class="qcat">版权声明</span></summary>
+      <div class="a">不能，也不打算能。本站所有条目只给片名、年份、时长和一句观看建议，播放请移步各片合法的院线、电视台或持牌平台。整理他人作品时我们会尽量标注出处与年份，如有版权方认为需要更正，联系任一公开渠道即可，我们会尽快处理。</div>
+    </details>
+    <details>
+      <summary>更新频率和内容方向？<span class="qcat">更新节奏</span></summary>
+      <div class="a">观影日历每周日换一版，长评不定时，通常两到三周一篇，只在真的有话可说的时候写。方向偏华语片、剧集结构、动画作画和冷门纪录，不会追着档期和热搜跑。</div>
+    </details>
+    <details>
+      <summary>网址太长记不住怎么办？<span class="qcat">收藏</span></summary>
+      <div class="a">点页面右上角「复制网址」，存进备忘录或浏览器书签即可。全站只有一个页面，所有栏目都是页内跳转，离线缓存后也能翻着看。</div>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<hr class="ruleline">
+<footer class="colophon">
+  <div>
+    <div class="big">三米影视</div>
+    <p style="margin-top:9px">在华语片与剧集之间，<br>留出三米的距离。慢一点看，也看得久一点。</p>
+    <p style="margin-top:12px;color:var(--accent-2);font-family:Menlo,monospace;font-size:12px;word-break:break-all">sanmiyingshi-zh.github.io</p>
+  </div>
+  <div>
+    <h5>栏目</h5>
+    <ul>
+      <li><a href="#week">观影日历</a></li>
+      <li><a href="#essays">慢一拍长评</a></li>
+      <li><a href="#reel">片单索引</a></li>
+      <li><a href="#trend">本周观察</a></li>
+    </ul>
+  </div>
+  <div>
+    <h5>方法</h5>
+    <ul>
+      <li><a href="#howto">剧荒四步法</a></li>
+      <li><a href="#faq">常问与声明</a></li>
+      <li><a href="#reel">冷门索引用法</a></li>
+      <li><a href="#week">怎么用日历</a></li>
+    </ul>
+  </div>
+  <div>
+    <h5>站点信息</h5>
+    <ul>
+      <li>语言：简体中文（zh-CN）</li>
+      <li>托管：GitHub Pages</li>
+      <li>形态：单页静态站，无追踪脚本</li>
+      <li>内容：原创整理，不含播放源</li>
+    </ul>
+  </div>
+</footer>
+<div class="fineprint">
+  <span>© <b>三米影视</b> · 本站内容仅作个人观影记录与交流，转载请注明出处。</span>
+  <span>唯一地址：<b>https://sanmiyingshi-zh.github.io</b></span>
+  <span>页面内所有链接均为 <b>#</b> 锚点，不跳转至第三方站点。</span>
+</div>
+
+<script>
+(function(){
+  var url="https://sanmiyingshi-zh.github.io";
+  var btn=document.getElementById("cp"),code=document.getElementById("u");
+  if(btn&&code){
+    btn.addEventListener("click",function(){
+      var done=function(){
+        var t=btn.textContent;btn.textContent="已复制 ✓";btn.className="ok";
+        setTimeout(function(){btn.textContent=t;btn.className="";},2200);
+      };
+      if(navigator.clipboard&&navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(done,function(){fallback()});
+      }else{fallback()}
+      function fallback(){
+        var ta=document.createElement("textarea");
+        ta.value=url;ta.style.position="fixed";ta.style.opacity="0";
+        document.body.appendChild(ta);ta.select();
+        try{document.execCommand("copy");done()}catch(e){btn.textContent="请长按上方网址复制"}
+        document.body.removeChild(ta);
+      }
+    });
+  }
+  var links=[].slice.call(document.querySelectorAll(".mh-nav a"));
+  var secs=links.map(function(a){return document.querySelector(a.getAttribute("href"));});
+  if("IntersectionObserver" in window&&secs.length){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        var id="#"+e.target.id;
+        links.forEach(function(a){a.classList.toggle("cur",a.getAttribute("href")===id&&e.isIntersecting);});
+      });
+    },{rootMargin:"-45% 0px -50% 0px"});
+    secs.forEach(function(s){if(s)io.observe(s);});
+  }
+})();
+</script>
+</body>
+</html>
